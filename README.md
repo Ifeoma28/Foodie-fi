@@ -50,6 +50,7 @@ GROUP BY DATEFROMPARTS(YEAR(s.start_date),MONTH(s.start_date),01)
 ORDER BY monthly_distribution DESC;
 ```
  March has the highest distribution of free trial users and February has the least
+ 
 
 - What plan start_date values occur after the year 2020 for our dataset? Show the breakdown by count of events for each plan_name
 ```
