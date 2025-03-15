@@ -26,11 +26,11 @@ LEFT JOIN plans p ON
 s.plan_id = p.plan_id
 WHERE customer_id <= 8
 ```
--- 8 customers upgrade their plans after using the free trial
--- no customer canceled after the trial period
--- 6 customers upgraded their plans once
--- 2 customers upgraded their plans twice
--- 2 customers churned after upgrading their plan once
+1. 8 customers upgrade their plans after using the free trial
+2. no customer canceled after the trial period
+3. 6 customers upgraded their plans once
+4. 2 customers upgraded their plans twice
+5. 2 customers churned after upgrading their plan once
 
 - Now we want to know how many customers Foodie-fi has ever had ?
 ```
@@ -77,7 +77,7 @@ SELECT ((CAST (churned_customers AS FLOAT))/1000)*100  AS customer_churned_perce
 
 - How many customers have churned straight after their initial free trial - what percentage is this rounded to the nearest whole number?
 
- how many customers have churned straight after their initial free trial
+ To know how many customers have churned straight after their initial free trial
 here we have to use CTEs 
  one table for  for their next plan and a row number to rank all the customers according to their id
 
@@ -99,5 +99,87 @@ WHERE
 29.97 percent of churned out customers churned out after the free trial
 9.2 percent of total customers churned out after the free trial
 
+- What is the number and percentage of customer plans after their initial free trial?
+```
+WITH next_plan AS (
+SELECT customer_id,start_date, ROW_NUMBER() OVER(PARTITION BY customer_id ORDER BY start_date) AS rnk,plan_name
+FROM subscriptions s
+INNER JOIN plans p ON s.plan_id = p.plan_id 
+)
+SELECT COUNT(customer_id) AS customer_count,plan_name AS no_of_plans,
+ROUND((CAST (COUNT(plan_name) AS FLOAT)/1000)*100,2) AS customer_plans_percent
+FROM next_plan 
+WHERE rnk = 2
+GROUP BY plan_name
+;
+```
+- What is the customer count and percentage breakdown of all 5 plan_name values at 2020-12-31?
+```
+WITH last_plan AS (
+	SELECT *,ROW_NUMBER() OVER(PARTITION BY customer_id ORDER BY start_date DESC ) AS rnk
+	FROM subscriptions 
+	WHERE start_date <= '2020-12-31'
+	)
+	SELECT COUNT(customer_id) AS customer_count,plan_name,((CAST (COUNT(plan_name) AS FLOAT)) /1000)*100 AS customer_plans_percent
+	-- i divided by 1000 because we want a percentage of the total customers
+	FROM last_plan l
+	INNER JOIN plans p ON l.plan_id = p.plan_id
+	WHERE rnk = 1
+GROUP BY plan_name
+;
+```
+- How many customers have upgraded to an annual plan in 2020?
+```
+SELECT COUNT(*) FROM
+	(SELECT s.customer_id,s.plan_id,p.plan_name,s.start_date
+	FROM subscriptions s
+	INNER JOIN plans p ON
+	s.plan_id = p.plan_id
+	WHERE s.plan_id = 3 AND s.start_date <= '2020-12-31') AS annual_plans;
+```
+195 customers upgraded to annual plans
 
+- How many days on average does it take for a customer to an annual plan from the day they join Foodie-Fi?
+```
+WITH free_trial_users AS (
+	SELECT customer_id,start_date
+	FROM subscriptions 
+	WHERE plan_id = 0),
+	next_plan AS (
+	SELECT s.customer_id,s.plan_id,s.start_date
+	FROM subscriptions s
+	JOIN free_trial_users t ON s.customer_id = t.customer_id
+	WHERE  s.plan_id = 3 AND s.start_date > t.start_date
+	GROUP BY s.customer_id,s.plan_id,s.start_date
+	)
+	SELECT t.customer_id,(DATEDIFF(DAY,t.start_date,n.start_date)) AS no_of_days,
+	AVG(DATEDIFF(DAY,t.start_date,n.start_date)) OVER() AS average_no_days
+	FROM free_trial_users t
+	LEFT JOIN next_plan n ON t.customer_id = n.customer_id
+    GROUP BY t.customer_id,n.start_date,t.start_date
+	ORDER BY no_of_days DESC
+    ;
+    -- giving an average of 104
+```
+- How many customers downgraded from a pro monthly to a basic monthly plan in 2020?
+```
+ WITH pro_monthly_users AS (
+	SELECT customer_id,start_date
+	FROM subscriptions 
+	WHERE plan_id = 2 AND (start_date BETWEEN '2020-01-01'AND'2020-12-31')
+    ),
+	next_plan AS (
+	SELECT s.customer_id,s.plan_id,s.start_date
+	FROM subscriptions s
+	JOIN pro_monthly_users p ON s.customer_id = p.customer_id
+	WHERE  s.start_date > p.start_date AND plan_id = 1 AND s.start_date <= '2020-12-31'
+	)
+	SELECT p.customer_id,COUNT(*) AS customer_count
+	FROM pro_monthly_users p
+	INNER JOIN next_plan n ON p.customer_id = n.customer_id
+    GROUP BY p.customer_id;
+```
+no customers downgraded their plans from pro monthly to a basic monthly in 2020
+
+## Key Insights
 
