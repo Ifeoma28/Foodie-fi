@@ -137,7 +137,7 @@ SELECT COUNT(*) FROM
 	s.plan_id = p.plan_id
 	WHERE s.plan_id = 3 AND s.start_date <= '2020-12-31') AS annual_plans;
 ```
-195 customers upgraded to annual plans
+195 customers upgraded to annual plans in 2020
 
 - How many days on average does it take for a customer to an annual plan from the day they join Foodie-Fi?
 ```
