@@ -191,6 +191,8 @@ WITH free_trial_users AS (
 ```
 no customers downgraded their plans from pro monthly to a basic monthly in 2020
 
+## Analysis 
+
 ## Key Insights
 - March has the highest distribution of free trials while February has the least
 - Out of 1000 customers, 307 customers have churned (did not renew their subscription) with a churn rate of 30.7
