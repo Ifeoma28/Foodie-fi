@@ -134,6 +134,8 @@ WITH last_plan AS (
 GROUP BY plan_name
 ;
 ```
+![breakdown at 31st December 2020](https://github.com/Ifeoma28/Foodie-fi/blob/9538d38d82a78ad6805cd8e8babf5750fab59f75/end%20of%202020%20subscribers.png)
+
 - How many customers have upgraded to an annual plan in 2020?
 ```
 SELECT COUNT(*) FROM
