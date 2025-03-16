@@ -6,7 +6,7 @@ Subscription based businesses are super popular and Danny realized that there wa
 
 ### Problem Statement
 -	We want to understand each customer’s onboarding journey.
--	We want to calculatethe total revenue  for the Year 2020 and 2021 that includes amounts paid by each customer in the subscriptions table.
+-	We want to calculate the total revenue  for the Year 2020 and 2021 that includes amounts paid by each customer in the subscriptions table.
 -	The rate of growth for Foodie-fi and the customer churn rate.
 -	Key metrics for Foodie-fi management to track performance of their overall business.
 
