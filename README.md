@@ -66,6 +66,7 @@ GROUP BY plan_name;
 63 customers subscribed to pro annual
  60 customers subscribed to pro monthly.
 
+![after year 2020](https://github.com/Ifeoma28/Foodie-fi/blob/42dee59193f3c6c42469e9bc7e16b2ba2520562a/2021%20breakdown%20of%20customer%20plans.png)
 - What is the customer count and percentage of customers who have churned rounded to 1 decimal place?
 ```
 SELECT ((CAST (churned_customers AS FLOAT))/1000)*100  AS customer_churned_percent
