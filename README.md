@@ -1,5 +1,5 @@
 # Foodie-fi
-![foodie fi dashboard](https://github.com/Ifeoma28/Foodie-fi/blob/32ba8e7cc98c610fa76c5306d445be6169f670a4/FOODIE-FI%20dashboard.png)
+![foodie fi dashboard]
 
 ## Overview 
 Subscription based businesses are super popular and Danny realized that there was a large gap in the market – he wanted to create a new streaming service that only had food related contents. With the help of a few smart friends Danny launched his new start-up Foodie-FI in 2020 and started selling monthly and annual subscriptions giving their customers something like Netflix but with only cooking shows. This case study focuses on using subscription style digital data to answer important business questions.
@@ -53,7 +53,7 @@ GROUP BY DATEFROMPARTS(YEAR(s.start_date),MONTH(s.start_date),01)
 ORDER BY monthly_distribution DESC;
 ```
 
-![Free trial distribution](https://github.com/Ifeoma28/Foodie-fi/blob/cb726360d58d7e1a355a7e5e59e4dbc6dec4b4a7/Free%20trial%20distribution.png)
+![Free trial distribution]()
  March has the highest distribution of free trial users and February has the least
  
 
@@ -70,7 +70,7 @@ GROUP BY plan_name;
 63 customers subscribed to pro annual
  60 customers subscribed to pro monthly.
 
-![after year 2020](https://github.com/Ifeoma28/Foodie-fi/blob/42dee59193f3c6c42469e9bc7e16b2ba2520562a/2021%20breakdown%20of%20customer%20plans.png)
+![after year 2020]()
 - What is the customer count and percentage of customers who have churned rounded to 1 decimal place?
 ```
 SELECT ((CAST (churned_customers AS FLOAT))/1000)*100  AS customer_churned_percent
@@ -135,7 +135,7 @@ WITH last_plan AS (
 GROUP BY plan_name
 ;
 ```
-![breakdown at 31st December 2020](https://github.com/Ifeoma28/Foodie-fi/blob/9538d38d82a78ad6805cd8e8babf5750fab59f75/end%20of%202020%20subscribers.png)
+![breakdown at 31st December 2020]()
 
 - How many customers have upgraded to an annual plan in 2020?
 ```
@@ -147,7 +147,7 @@ SELECT COUNT(*) FROM
 	WHERE s.plan_id = 3 AND s.start_date <= '2020-12-31') AS annual_plans;
 ```
 195 customers upgraded to annual plans in 2020
-![pro annual users](https://github.com/Ifeoma28/Foodie-fi/blob/05f49937837aa44439696d8cf97881306efaaa3f/Pro%20annual%20users.png)
+![pro annual users]()
 This shows the growth of annual users monthly 
 - How many days on average does it take for a customer to an annual plan from the day they join Foodie-Fi?
 ```
