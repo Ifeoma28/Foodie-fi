@@ -38,6 +38,8 @@ SELECT COUNT(DISTINCT customer_id) AS total_customers
 FROM subscriptions;
 ```
 This shows a total of 1000 customers for Foodie-fi.
+Below is the number of customers that subscribed for each plans
+![plans breakdown](https://github.com/Ifeoma28/Foodie-fi/blob/78145d163d637ff3c0038f0958f1016a5eec1b96/number%20of%20people%20that%20subscribed%20for%20various%20plans.png)
 
 - What is the monthly distribution of trial plan start_date values for our dataset - using the start of the month as the group by value
 ```
