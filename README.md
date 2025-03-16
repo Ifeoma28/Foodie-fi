@@ -50,7 +50,8 @@ s.plan_id = p.plan_id
 WHERE p.plan_name ='trial'
 GROUP BY DATEFROMPARTS(YEAR(s.start_date),MONTH(s.start_date),01)
 ORDER BY monthly_distribution DESC;
-'''
+```
+
 ![Free trial distribution](https://github.com/Ifeoma28/Foodie-fi/blob/cb726360d58d7e1a355a7e5e59e4dbc6dec4b4a7/Free%20trial%20distribution.png)
  March has the highest distribution of free trial users and February has the least
  
