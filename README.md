@@ -234,6 +234,13 @@ no customers downgraded their plans from pro monthly to a basic monthly in 2020
 - The minimum subscription duration  to annual plan from the day they joined Foodie-fi is 7days and the maximum  is 346 days.
 - None of the customers downgraded their plans to a lesser plan which shows that customers had no issues with the price but rather the food content. 
 - The percentage churn rate and the number of Active subscribers are a useful metric in tracking the performance of Foodie-fi.
-- August was the most active month 
+- From August to September was the most active period comprising more of pro monthly and basic users.
+
+## Recommendations
+- An exit survey should be created for customers who wish to leave after the free trial
+- Questions like; How was your streaming experience on Foodie-fi, What can be done to improve your experience, also give a rating based on your free trial.
+- This would help us to analyze further customer churn out after the free trial and thereby reduce the churn out rate
+- The number of Active subscribers monthly is a useful metric in tracking the performance of Foodie-fi.
+- A rating systems should be incorporated for active subscribers too so we can track their preferences. 
 
 
