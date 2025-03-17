@@ -238,6 +238,7 @@ Points from August to October where pro annual exceeded churn indicates active p
 - The percentage churn rate and the number of Active subscribers are a useful metric in tracking the performance of Foodie-fi.
 - From August to September was the most active period  due to the low churn rate in August,Notably,this was one of the few periods the pro annual rate exceeded the churn rate indicating strong retention rate and commitment.
 - Another period where Pro Annual subscriptions exceeded the churn rate was from September to October. As a result, October became the second-highest month for active subscribers, reinforcing a trend of strong customer retention during this time.
+![Active subscribers monthly](https://github.com/Ifeoma28/Foodie-fi/blob/1c48800bcd8c1228eac4b0e18261b1362fb582a0/customer%20change.png)
 
 ## Recommendations
 - An exit survey should be created for customers who wish to leave after the free trial
