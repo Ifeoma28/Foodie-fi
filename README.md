@@ -231,10 +231,10 @@ no customers downgraded their plans from pro monthly to a basic monthly in 2020
 - The overall churn rate is 30.7%, meaning 307 out of 1,000 customers did not renew their subscription.
 - Only 92 out of 307 churned out customers churned after their initial free trial while 215 left after at least one renewal.
 - The highest number of times a customer renewed their plans was 3 times.
-- Customers who upgraded to the pro annual from the day they joined Foodie-fi did so within an average subscription duration of 104 days with a minimum of 7days and a maximum of 346 days.
+- Customers who upgraded to the pro annual from the day they joined Foodie-fi did so within an average subscription duration of 104 days,with a minimum of 7days and a maximum of 346 days.
 - None of the customers downgraded their plans to a lesser plan which shows that customers had no issues with the price. 
 - The percentage churn rate and the number of Active subscribers are a useful metric in tracking the performance of Foodie-fi.
-- From August to September was the most active period comprising more of pro monthly and basic users due to the low churn rate.
+- From August to September was the most active period comprising more of pro monthly and basic users due to the low churn rate in August.
 
 ## Recommendations
 - An exit survey should be created for customers who wish to leave after the free trial
