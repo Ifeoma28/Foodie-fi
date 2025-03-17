@@ -19,6 +19,16 @@ Sql was used for answering important business questions.
 Power bi was used for creating visuals.
 
 ### About Dataset 
+Customers can choose which plans to join Foodie-Fi when they first sign up.
+
+- Basic plan customers have limited access and can only stream their videos and is only available monthly at $9.90
+
+- Pro plan customers have no watch time limits and are able to download videos for offline viewing. Pro plans start at $19.90 a month or $199 for an annual subscription.
+
+- Customers can sign up to an initial 7 day free trial will automatically continue with the pro monthly subscription plan unless they cancel, downgrade to basic or upgrade to an annual pro plan at any point during the trial.
+
+- When customers cancel their Foodie-Fi service - they will have a churn plan record with a null price but their plan will continue until the end of the billing period.
+![subscription price]
 ### Business questions
 Using a sample data set of 8 customers, we want to have a short glimpse of our data
 ```
