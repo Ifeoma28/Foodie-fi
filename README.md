@@ -238,9 +238,11 @@ no customers downgraded their plans from pro monthly to a basic monthly in 2020
 
 ## Recommendations
 - An exit survey should be created for customers who wish to leave after the free trial
-- Questions like; How was your streaming experience on Foodie-fi, What can be done to improve your experience, also give a rating based on your free trial.
+- Open ended questions like; How was your streaming experience on Foodie-fi, What can be done to improve your experience,What features did you like or dislike the most?,Would you consider subscribing in the future, if no, why and also give a rating based on your free trial.
+- Also personalized offers and discounts for customers who rated their free trial highly without subscribing.
 - This would help us to analyze further customer churn out after the free trial and thereby reduce the churn out rate
 - The number of Active subscribers monthly is a useful metric in tracking the performance of Foodie-fi.
-- A rating systems should be incorporated for active subscribers too so we can track their preferences. 
+- A rating systems should be incorporated for active subscribers to help personalize content and improve user experience.
+- Lastly, invest in advertising campaigns to increase visibility and referrals and affiliates programs for past users.
 
 
