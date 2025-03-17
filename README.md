@@ -216,13 +216,13 @@ no customers downgraded their plans from pro monthly to a basic monthly in 2020
 
 ## Analysis 
 - Churn outs occur every month but mostly in March and November.
-![customer behavior](https://github.com/Ifeoma28/Foodie-fi/blob/f0a7f24f2f556eae9e36372099a27ad742a9baef/customer%20behaviour.png)
-
+![churn out]
 - Active subscribers dropped from 136 to 126.
 ![Active](https://github.com/Ifeoma28/Foodie-fi/blob/c6c0ea8fabb3177bd69f47b17b226f05c2fbb95a/active%20subscribers.png)
 
-
 - Pro monthly users in the month of November is the same as the number of churned out customers in that month.
+![customer behavior](https://github.com/Ifeoma28/Foodie-fi/blob/f0a7f24f2f556eae9e36372099a27ad742a9baef/customer%20behaviour.png)
+
 - The churn out rate (30.7) is greater than the rate at which customers upgrade to pro annual (25.8) 
 
 ## Key Insights
