@@ -19,7 +19,7 @@ Sql was used for answering important business questions.
 Power bi was used for creating visuals.
 
 ### About Dataset 
-Customers can choose which plans to join Foodie-Fi when they first sign up.
+Customers can choose which plans to join Foodie-Fi when they first sign up. The plans table comprises of;
 
 - Basic plan customers have limited access and can only stream their videos and is only available monthly at $9.90
 
@@ -29,6 +29,16 @@ Customers can choose which plans to join Foodie-Fi when they first sign up.
 
 - When customers cancel their Foodie-Fi service - they will have a churn plan record with a null price but their plan will continue until the end of the billing period.
 ![subscription price](https://github.com/Ifeoma28/Foodie-fi/blob/dba4ecdcefa4ecfffd7d3c7bcb2f0f867d9cfdfa/subscription%20prices.png)
+
+Next is the subscriptions table,
+Customer subscriptions show the exact date where their specific plan_id starts.
+
+- If customers downgrade from a pro plan or cancel their subscription - the higher plan will remain in place until the period is over - the start_date in the subscriptions table will reflect the date that the actual plan changes.
+
+- When customers upgrade their account from a basic plan to a pro or annual pro plan - the higher plan will take effect straightaway.
+
+- When customers churn - they will keep their access until the end of their current billing period but the start_date will be technically the day they decided to cancel their service.
+  
 ### Business questions
 Using a sample data set of 8 customers, we want to have a short glimpse of our data
 ```
