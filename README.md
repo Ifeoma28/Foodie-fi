@@ -243,6 +243,6 @@ no customers downgraded their plans from pro monthly to a basic monthly in 2020
 - This would help us to analyze further customer churn out after the free trial and thereby reduce the churn out rate
 - The number of Active subscribers monthly is a useful metric in tracking the performance of Foodie-fi.
 - A rating systems should be incorporated for active subscribers to help personalize content and improve user experience.
-- Lastly, invest in advertising campaigns to increase visibility and referrals and affiliates programs for past users.
+- Lastly, invest in advertising campaigns to increase visibility and referrals or affiliates programs for past users.
 
 
