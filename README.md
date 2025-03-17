@@ -225,6 +225,7 @@ no customers downgraded their plans from pro monthly to a basic monthly in 2020
 
 - The churn out rate (30.7) is greater than the rate at which customers upgrade to pro annual (25.8)
 ![churn out vs pro annual](https://github.com/Ifeoma28/Foodie-fi/blob/6afec9c226c7bc08ee437720d7f8218b182c6210/pro%20annual%20vs%20churn.png)
+Points from August to October where pro annual exceeded churn indicates active periods and high retention rates.
 
 ## Key Insights
 - March has the highest distribution of free trials while February has the least
@@ -236,6 +237,7 @@ no customers downgraded their plans from pro monthly to a basic monthly in 2020
 - Further analysis is needed to know if no downgrade was a lack of downgrade options or due to satisfaction.
 - The percentage churn rate and the number of Active subscribers are a useful metric in tracking the performance of Foodie-fi.
 - From August to September was the most active period  due to the low churn rate in August,Notably,this was one of the few periods the pro annual rate exceeded the churn rate indicating strong retention rate and commitment.
+- Another period where Pro Annual subscriptions exceeded the churn rate was from September to October. As a result, October became the second-highest month for active subscribers, reinforcing a trend of strong customer retention during this time.
 
 ## Recommendations
 - An exit survey should be created for customers who wish to leave after the free trial
