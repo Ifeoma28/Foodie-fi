@@ -33,7 +33,7 @@ Customers can choose which plans to join Foodie-Fi when they first sign up. The 
 Next is the subscriptions table,
 Customer subscriptions show the exact date where their specific plan_id starts.
 
-- If customers downgrade from a pro plan or cancel their subscription - the higher plan will remain in place until the period is over - the **start_date**in the subscriptions table will reflect the date that the actual plan changes.
+- If customers downgrade from a pro plan or cancel their subscription - the higher plan will remain in place until the period is over - the **start_date** in the subscriptions table will reflect the date that the actual plan changes.
 
 - When customers upgrade their account from a basic plan to a pro or annual pro plan - the higher plan will take effect straightaway.
 
