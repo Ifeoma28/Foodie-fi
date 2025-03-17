@@ -28,7 +28,7 @@ Customers can choose which plans to join Foodie-Fi when they first sign up.
 - Customers can sign up to an initial 7 day free trial will automatically continue with the pro monthly subscription plan unless they cancel, downgrade to basic or upgrade to an annual pro plan at any point during the trial.
 
 - When customers cancel their Foodie-Fi service - they will have a churn plan record with a null price but their plan will continue until the end of the billing period.
-![subscription price]
+![subscription price](https://github.com/Ifeoma28/Foodie-fi/blob/dba4ecdcefa4ecfffd7d3c7bcb2f0f867d9cfdfa/subscription%20prices.png)
 ### Business questions
 Using a sample data set of 8 customers, we want to have a short glimpse of our data
 ```
