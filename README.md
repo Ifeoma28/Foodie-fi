@@ -138,6 +138,7 @@ GROUP BY plan_name
 ```
 ![breakdown at 31st December 2020](https://github.com/Ifeoma28/Foodie-fi/blob/4f0f7f04307a2c12d464d6358427b61f79643724/subscribers%20end%20of%202020.png)
 
+
 - How many customers have upgraded to an annual plan in 2020?
 ```
 SELECT COUNT(*) FROM
@@ -148,7 +149,7 @@ SELECT COUNT(*) FROM
 	WHERE s.plan_id = 3 AND s.start_date <= '2020-12-31') AS annual_plans;
 ```
 195 customers upgraded to annual plans in 2020
-![pro annual users]()
+![pro annual users](https://github.com/Ifeoma28/Foodie-fi/blob/c4708a20323c15daabcfb2475cb8e7e5f1cd4359/pro%20annual%20users.png)
 This shows the growth of annual users monthly 
 - How many days on average does it take for a customer to an annual plan from the day they join Foodie-Fi?
 ```
