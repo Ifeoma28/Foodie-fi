@@ -5,18 +5,18 @@
 Subscription based businesses are super popular and Danny realized that there was a large gap in the market – he wanted to create a new streaming service that only had food related contents. With the help of a few smart friends Danny launched his new start-up Foodie-FI in 2020 and started selling monthly and annual subscriptions giving their customers something like Netflix but with only cooking shows. This case study focuses on using subscription style digital data to answer important business questions.
 
 ### Problem Statement
--	We want to understand each customer’s onboarding journey.
--	We want to calculate the total revenue  for the Year 2020 and 2021 that includes amounts paid by each customer in the subscriptions table.
--	The rate of growth for Foodie-fi and the customer churn rate.
--	Key metrics for Foodie-fi management to track performance of their overall business.
+- We want to understand each customer’s onboarding journey.
+- We want to calculate the total revenue  for the Year 2020 and 2021 that includes amounts paid by each customer in the subscriptions table.
+- The rate of growth for Foodie-fi and the customer churn rate.
+- Key metrics for Foodie-fi management to track performance of their overall business.
 
 ### Data source
 This data was sourced from Danny Ma.
 
 ### Methodology
 The table was created in Microsoft sql server and there were no errors in the dataset.
-Sql was used for answering important business questions.
-Power bi was used for creating visuals.
+- Sql was used for answering important business questions.
+- Power bi was used for creating visuals.
 
 ### About Dataset 
 Customers can choose which plans to join Foodie-Fi when they first sign up. The plans table comprises of;
