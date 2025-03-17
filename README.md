@@ -1,6 +1,6 @@
 # Foodie-fi
-![foodie fi dashboard]
-
+![foodie fi dashboard](https://github.com/Ifeoma28/Foodie-fi/blob/4cf085d4ce31b30dec1b4ec94d1d9fb7a4ab9b4b/foodie-fi%20dashboard%20details.png
+)
 ## Overview 
 Subscription based businesses are super popular and Danny realized that there was a large gap in the market – he wanted to create a new streaming service that only had food related contents. With the help of a few smart friends Danny launched his new start-up Foodie-FI in 2020 and started selling monthly and annual subscriptions giving their customers something like Netflix but with only cooking shows. This case study focuses on using subscription style digital data to answer important business questions.
 
