@@ -71,7 +71,7 @@ GROUP BY plan_name;
 63 customers subscribed to pro annual
  60 customers subscribed to pro monthly.
 
-![after year 2020]()
+
 - What is the customer count and percentage of customers who have churned rounded to 1 decimal place?
 ```
 SELECT ((CAST (churned_customers AS FLOAT))/1000)*100  AS customer_churned_percent
