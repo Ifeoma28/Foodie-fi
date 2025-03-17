@@ -11,7 +11,7 @@ Subscription based businesses are super popular and Danny realized that there wa
 - Key metrics for Foodie-fi management to track performance of their overall business.
 
 ### Data source
-This data was sourced from [Danny Ma](https://www.linkedin.com/in/datawithdanny)# Foodie-fi 
+This data was sourced from [Danny Ma](https://www.linkedin.com/in/datawithdanny)
 
 ### Methodology
 The table was created in Microsoft sql server and there were no errors in the dataset.
