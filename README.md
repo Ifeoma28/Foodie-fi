@@ -18,7 +18,7 @@ The table was created in Microsoft sql server and there were no errors in the da
 Sql was used for answering important business questions.
 Power bi was used for creating visuals.
 
-### Landing page
+### About Dataset 
 ### Business questions
 Using a sample data set of 8 customers, we want to have a short glimpse of our data
 ```
