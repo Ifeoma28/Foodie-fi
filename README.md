@@ -124,9 +124,9 @@ FROM next_plan
 WHERE 
  rnk = 2 AND plan_name = 'churn';
 ```
-92 customers churned out after free trial	
-29.97 percent of churned out customers churned out after the free trial
-9.2 percent of total customers churned out after the free trial
+92 customers churned out after free trial.	
+29.97 percent of churned out customers churned out after the free trial.
+9.2 percent of the total customers churned out after the free trial.
 
 - What is the number and percentage of customer plans after their initial free trial?
 ```
