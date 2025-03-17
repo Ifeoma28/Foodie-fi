@@ -136,7 +136,7 @@ WITH last_plan AS (
 GROUP BY plan_name
 ;
 ```
-![breakdown at 31st December 2020]()
+![breakdown at 31st December 2020](https://github.com/Ifeoma28/Foodie-fi/blob/4f0f7f04307a2c12d464d6358427b61f79643724/subscribers%20end%20of%202020.png)
 
 - How many customers have upgraded to an annual plan in 2020?
 ```
