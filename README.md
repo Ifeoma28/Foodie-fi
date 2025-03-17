@@ -232,7 +232,7 @@ no customers downgraded their plans from pro monthly to a basic monthly in 2020
 - Only 92 out of 307 churned out customers churned after their initial free trial.
 - The highest number of times a customer renewed their plans was 3 times.
 - The minimum subscription duration  to annual plan from the day they joined Foodie-fi is 7days and the maximum  is 346 days.
-- None of the customers downgraded their plans to a lesser plan which shows that customers had no issues with the price but rather the food content. 
+- None of the customers downgraded their plans to a lesser plan which shows that customers had no issues with the price. 
 - The percentage churn rate and the number of Active subscribers are a useful metric in tracking the performance of Foodie-fi.
 - From August to September was the most active period comprising more of pro monthly and basic users.
 
