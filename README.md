@@ -53,7 +53,7 @@ GROUP BY DATEFROMPARTS(YEAR(s.start_date),MONTH(s.start_date),01)
 ORDER BY monthly_distribution DESC;
 ```
 
-![Free trial distribution]()
+![Free trial distribution](https://github.com/Ifeoma28/Foodie-fi/blob/2f8a062e84f51f3c8b1defe6563a88cb8e8cd232/free%20trial%20users.png)
  March has the highest distribution of free trial users and February has the least
  
 
