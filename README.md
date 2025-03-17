@@ -192,6 +192,9 @@ WITH free_trial_users AS (
 no customers downgraded their plans from pro monthly to a basic monthly in 2020
 
 ## Analysis 
+- Churn outs occur every month but mostly in March and November.
+- Active subscribers dropped from  to .
+- Pro monthly users in the month of November equaled the number of churned out customers 
 
 ## Key Insights
 - March has the highest distribution of free trials while February has the least
