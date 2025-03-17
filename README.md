@@ -66,6 +66,7 @@ INNER JOIN plans p ON s.plan_id = p.plan_id
 WHERE YEAR(start_date) > 2020) AS plans_after_2020
 GROUP BY plan_name;
 ```
+![after year 2020](https://github.com/Ifeoma28/Foodie-fi/blob/b367769d385fc9217e082f6f80cdb6fa6aa51f4f/2021%20subscribers.png)
  After the year 2020, 8 customers subscribed to basic monthly, 71 customers churned
 63 customers subscribed to pro annual
  60 customers subscribed to pro monthly.
