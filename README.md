@@ -224,7 +224,7 @@ no customers downgraded their plans from pro monthly to a basic monthly in 2020
 ![customer behavior](https://github.com/Ifeoma28/Foodie-fi/blob/f0a7f24f2f556eae9e36372099a27ad742a9baef/customer%20behaviour.png)
 
 - The churn out rate (30.7) is greater than the rate at which customers upgrade to pro annual (25.8)
-![churn out vs pro annual](
+![churn out vs pro annual](https://github.com/Ifeoma28/Foodie-fi/blob/6afec9c226c7bc08ee437720d7f8218b182c6210/pro%20annual%20vs%20churn.png)
 
 ## Key Insights
 - March has the highest distribution of free trials while February has the least
